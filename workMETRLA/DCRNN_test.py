@@ -398,7 +398,8 @@ def load_adj(pkl_filename, adjtype):
 
 def main():    
     from Param import CHANNEL,N_NODE,TIMESTEP_IN,TIMESTEP_OUT 
-    from Param_DCRNN import ADJPATH,ADJTYPE
+    ADJPATH = '../METRLA/adj_mx.pkl'
+    ADJTYPE = 'transition'
     GPU = sys.argv[-1] if len(sys.argv) == 2 else '3'
     device = torch.device("cuda:{}".format(GPU)) if torch.cuda.is_available() else torch.device("cpu")
     adj_mx =load_adj(ADJPATH, ADJTYPE)
