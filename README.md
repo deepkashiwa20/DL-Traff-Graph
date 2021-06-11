@@ -1,6 +1,12 @@
-DeepTraffic-Graph: Graph-Based Deep Learning Models for Urban Traffic Prediction
+## DeepTraffic-Graph: Graph-Based Deep Learning Models for Urban Traffic Prediction
 
-#1 pip install torch-summary 
-   https://pypi.org/project/torch-summary/
-   
-#2 unzip pems-bay.zip to pems-bay.h5
+## Instructions
+* pip install torch-summary 
+  https://pypi.org/project/torch-summary/
+* unzip pems-bay.zip to pems-bay.h5
+
+## Dependencies
+Working environment and major dependencies:
+* pip install torch-summary 
+  https://pypi.org/project/torch-summary/
+* unzip pems-bay.zip to pems-bay.h5
