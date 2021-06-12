@@ -19,6 +19,7 @@ Working environment and major dependencies:
 * DCRNN
 * GraphWaveNet
 * ASTGCN
+* GMAN
 * MTGNN
 * AGCRN
 * LSTNet
