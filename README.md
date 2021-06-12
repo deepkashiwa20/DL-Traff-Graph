@@ -21,3 +21,4 @@ Working environment and major dependencies:
 * ASTGCN
 * MTGNN
 * AGCRN
+* LSTNet
