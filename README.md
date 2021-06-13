@@ -23,4 +23,5 @@ Working environment and major dependencies:
 * MTGNN
 * AGCRN
 * LSTNet
-* TPALSTM
+* TPALSTM (test)
+* TGCN (test)
