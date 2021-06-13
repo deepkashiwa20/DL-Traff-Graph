@@ -232,6 +232,14 @@ torch.manual_seed(100)
 torch.cuda.manual_seed(100)
 np.random.seed(100)
 # torch.backends.cudnn.deterministic = True
+import os
+cpu_num = 1
+os.environ ['OMP_NUM_THREADS'] = str(cpu_num)
+os.environ ['OPENBLAS_NUM_THREADS'] = str(cpu_num)
+os.environ ['MKL_NUM_THREADS'] = str(cpu_num)
+os.environ ['VECLIB_MAXIMUM_THREADS'] = str(cpu_num)
+os.environ ['NUMEXPR_NUM_THREADS'] = str(cpu_num)
+torch.set_num_threads(cpu_num)
 ########################################################### 
 GPU = sys.argv[-1] if len(sys.argv) == 2 else '3'
 device = torch.device("cuda:{}".format(GPU)) if torch.cuda.is_available() else torch.device("cpu")
