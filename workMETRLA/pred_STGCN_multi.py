@@ -113,11 +113,12 @@ def trainModel(name, mode, XS, YS):
     val_data = torch.utils.data.Subset(trainval_data, list(range(train_size, trainval_size)))
     train_iter = torch.utils.data.DataLoader(train_data, BATCHSIZE, shuffle=True)
     val_iter = torch.utils.data.DataLoader(val_data, BATCHSIZE, shuffle=True)
-    
-    criterion = nn.MSELoss()
+    if LOSS == 'MSE':
+        criterion = nn.MSELoss()
+    if LOSS == 'MAE':
+        criterion = nn.L1Loss()
     optimizer = torch.optim.Adam(model.parameters(), lr=LEARN)
     # scheduler = torch.optim.lr_scheduler.StepLR(optimizer, step_size=5, gamma=0.7)
-    
     min_val_loss = np.inf
     wait = 0
     for epoch in range(EPOCH):
@@ -172,7 +173,10 @@ def testModel(name, mode, XS, YS, YS_multi):
     test_iter = torch.utils.data.DataLoader(test_data, BATCHSIZE, shuffle=False)
     model = getModel(name)
     model.load_state_dict(torch.load(PATH + '/' + name + '.pt'))
-    criterion = nn.MSELoss()
+    if LOSS == 'MSE':
+        criterion = nn.MSELoss()
+    if LOSS == 'MAE':
+        criterion = nn.L1Loss()
     torch_score = evaluateModel(model, criterion, test_iter)
     YS_pred_multi = predictModel_multi(model, test_iter)
     print('YS_multi.shape, YS_pred_multi.shape,', YS_multi.shape, YS_pred_multi.shape)
