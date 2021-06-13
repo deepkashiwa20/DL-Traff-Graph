@@ -82,7 +82,7 @@ def trainModel(name, mode, XS, YS):
     val_iter = torch.utils.data.DataLoader(val_data, BATCHSIZE, shuffle=True)
     if LOSS == 'MSE':
         criterion = nn.MSELoss()
-    else:
+    if LOSS == 'MAE':
         criterion = nn.L1Loss()
     if OPTIMIZER == 'RMSprop':
         optimizer = torch.optim.RMSprop(model.parameters(), lr=LEARN)
@@ -144,7 +144,7 @@ def testModel(name, mode, XS, YS):
     model.load_state_dict(torch.load(PATH + '/' + name + '.pt'))
     if LOSS == 'MSE':
         criterion = nn.MSELoss()
-    else:
+    if LOSS == 'MAE':
         criterion = nn.L1Loss()
     torch_score = evaluateModel(model, criterion, test_iter)
     YS_pred = predictModel(model, test_iter)
