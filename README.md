@@ -12,6 +12,11 @@ Working environment and major dependencies:
 * PyTorch (>= 1.6.0) <br> py3.6_cuda10.1.243_cudnn7.6.3_0
 * torch-summary (>= 1.4.5)
 
+## Datasets
+* METR-LA
+* PeMS-BAY
+* PeMSD7(M)
+
 ## Models
 * HistoricalAverage
 * CopyLastSteps
