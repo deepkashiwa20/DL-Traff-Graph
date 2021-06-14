@@ -1,0 +1,1 @@
+ADJTYPE = 'doubletransition'
