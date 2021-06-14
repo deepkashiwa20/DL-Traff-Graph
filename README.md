@@ -1,4 +1,4 @@
-## DeepTraffic-Graph: Graph-Based Deep Learning Models for Urban Traffic Prediction
+## DL-Traff-Graph: Graph-Based Deep Learning Models for Urban Traffic Prediction
 
 ## Instructions
 * pip install torch-summary 
