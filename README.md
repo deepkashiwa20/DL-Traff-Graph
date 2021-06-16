@@ -28,5 +28,4 @@ Working environment and major dependencies:
 * MTGNN
 * AGCRN
 * LSTNet
-* TPALSTM *
-* TGCN *
+* TGCN *Need thousands of epochs to converge.
