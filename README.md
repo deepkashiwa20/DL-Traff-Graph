@@ -1,7 +1,5 @@
 # DL-Traff-Graph: Graph-Based Deep Learning Models for Urban Traffic Prediction
 
-Papers should include a description of the resource, an illustration of the use case(s) for the resource, explain its utility, reusability.
-
 ## Introduction
 English | [简体中文](README_zh-CN.md)
 
