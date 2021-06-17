@@ -79,7 +79,7 @@ Working environment and major dependencies:
 ### User guide
 Use the STGCN model on METRLA dataset as an example to demonstrate how to use it. 
 * dataset 
-  * *Note！* <br> remember to unzip pems-bay.zip to pems-bay.h5 before you run the programe on PEMSBAY dataset, we only upload compressed data due to file size limitation.
+<br>**NOTE!** <br> remember to unzip pems-bay.zip to pems-bay.h5 before you run the programe on PEMSBAY dataset, we only upload compressed data due to file size limitation.
 ```
 cd /PEMSBAY
 unzip pems-bay.h5
