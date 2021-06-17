@@ -64,13 +64,13 @@ Working environment and major dependencies:
   * STGCN.py  (model file, used for debug and providing model interfaces for pred programs.)
   * pred_STGCN3.csv (pred file, used for train, prediction and test of the single model STGCN)
   * ...
-* workMETRLA  (main program folder in PEMSBAY dataset)
+* workPEMSBAY  (main program folder in PEMSBAY dataset)
   * parameter.py  (common parameter file, which provide the parameters every model will use)
   * parameter_STGCN.py  (model parameter file, which provide the parameters every model will use)
   * STGCN.py  (model file, used for debug and providing model interfaces for pred programs.)
   * pred_STGCN3.csv (pred file, used for train, prediction and test of the single model STGCN)
   * ...
-* workMETRLA  (main program folder in PEMSD7M dataset)
+* workPEMSD7M  (main program folder in PEMSD7M dataset)
   * parameter.py  (common parameter file, which provide the parameters every model will use)
   * parameter_STGCN.py  (model parameter file, which provide the parameters every model will use)
   * STGCN.py  (model file, used for debug and providing model interfaces for pred programs.)
