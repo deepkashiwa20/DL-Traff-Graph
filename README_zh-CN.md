@@ -1,7 +1,7 @@
 # DL-Traff-Graph: Graph-Based Deep Learning Models for Urban Traffic Prediction
 
 ## Introduction
-English | [简体中文](README_zh-CN.md)
+[English](README.md) | 简体中文
 
 DL-Traff是一个开放资源项目，为基于网格和基于图形的模型的流量预测提供了基准。DL-Traff-Graph是基于图形的项目的一部分。这部分主要工作在PyTorch1.6上。需要注意的是，不同版本的Pytorch在训练时间和性能上略有不同。在这个github中，我们将两种传统的统计方法、一种时间序列模型和大量的图神经网络模型集成到一个平台中。我们保证了所有模型都基于相同的数据处理、相同的超参数和相同的计算环境，如Pytorch和Cudnn的版本。尽管这会使得各个模型没有达到最终收敛的效果，但是正因如此而可以充分体现不同网络架构在同条件下的表现性能。我们会在后续工作中更新各个模型调优后的结果。
 ## 安装依赖环境
