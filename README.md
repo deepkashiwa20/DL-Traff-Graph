@@ -3,14 +3,14 @@
 ## Introduction
 English | [简体中文](README_zh-CN.md)
 
-DL-Traff is an open resourse project which offers a benchmark for traffic prediction on grid-based and graph-based models. DL-Traff-Graph is a part of graph-based project. This main branch works with Pytorch1.6. Different versions of Pytorch vary slightly in training time and performance. In this github, we integrate two traditional statistical methods, one time series models and a large number of graph models into one platform. We maintain that all models are based on the same data processing, the same hyperparameters, and the same computing environment such as the version of Pytorch and Cudnn.
+DL-Traff is an open resourse project which offers a benchmark for traffic prediction on grid-based and graph-based models. DL-Traff-Graph is a part of graph-based project. This main branch works with Pytorch1.6. Different versions of Pytorch vary slightly in training time and performance. In this github, we integrate two traditional statistical methods, one time series models and a large number of graph models into one platform. We maintain that all models are based on the same data processing, the same hyperparameters, and the same computing environment such as the version of Pytorch and Cudnn. Although this makes the models fail to achieve the final convergence effection, the performance of different network architectures under the same conditions will be fully reflected by our experiment. We will update the optimization results of each model in later work.
 
 ## Installation Dependencies
 Working environment and major dependencies:
 * Ubuntu 20.04.2 LTS
 * Python 3 (>= 3.6; Anaconda Distribution)
 * PyTorch (>= 1.6.0)  py3.6_cuda10.1.243_cudnn7.6.3_0
-* torch-summary (>= 1.4.5) <br> you will get some error if you installed torchsummary, see the details at https://pypi.org/project/torch-summary/.<br> please run ```pip install torch-summary``` to install it.
+* torch-summary (>= 1.4.5) <br> you will get some error if you installed torchsummary, see the details at https://pypi.org/project/torch-summary/.<br> please uninstall torchsummary and run ```pip install torch-summary``` to install the new one.
 * tables
 * pandas
 * scipy
@@ -58,7 +58,7 @@ Working environment and major dependencies:
   * ...
 * workMETRLA  (main program folder in METRLA dataset)
   * parameter.py  (common parameter file, which provide the parameters every model will use)
-  * parameter_STGCN.py  (model parameter file, which provide the parameters every model will use)
+  * parameter_STGCN.py  (Model-specific parameter file, which provide the parameters this model will use. If the same parameters as parameter.py appear, this file has priority.)
   * STGCN.py  (model file, used for debug and providing model interfaces for pred programs.)
   * pred_STGCN3.csv (pred file, used for train, prediction and test of the single model STGCN)
   * ...
