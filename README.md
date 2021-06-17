@@ -84,10 +84,10 @@ Use the STGCN model on METRLA dataset as an example to demonstrate how to use it
 ```
 cd /workMETR
 
-# Debug the model on video card number 1 :
+# Debug the model on video card 1 :
 python STGCN.py 1
 
-# Run the main program to train, prediction and test on video card number 1:
+# Run the main program to train, prediction and test on video card 1:
 python pred_STGCN3.py 1
 
 # View the result after the operation is complete.
