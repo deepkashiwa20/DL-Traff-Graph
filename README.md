@@ -77,6 +77,11 @@ Working environment and major dependencies:
   * pred_STGCN3.csv (pred file, used for train, prediction and test of the single model STGCN)
   * ...
 ### User guide
+Download this project into your device, the code project will be downloaded into the current path where you type this powershell command:
+```
+git clone git@github.com:deepkashiwa20/DL-Traff-Graph.git
+```
+
 Use the STGCN model on METRLA dataset as an example to demonstrate how to use it. 
 * dataset 
 <br>**NOTE!** <br> remember to unzip pems-bay.zip to pems-bay.h5 before you run the programe on PEMSBAY dataset, we only upload compressed data due to file size limitation.
