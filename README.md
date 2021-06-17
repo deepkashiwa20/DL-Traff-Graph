@@ -12,7 +12,7 @@ Working environment and major dependencies:
 * Ubuntu 20.04.2 LTS
 * Python 3 (>= 3.6; Anaconda Distribution)
 * PyTorch (>= 1.6.0)  py3.6_cuda10.1.243_cudnn7.6.3_0
-* torch-summary (>= 1.4.5) <br> you will get some error if you installed torchsummary, see the details at https://pypi.org/project/torch-summary/<br> please run ```pip install torch-summary``` to install it.
+* torch-summary (>= 1.4.5) <br> you will get some error if you installed torchsummary, see the details at https://pypi.org/project/torch-summary/.<br> please run ```pip install torch-summary``` to install it.
 * tables
 * pandas
 * scipy
