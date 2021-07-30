@@ -1,5 +1,8 @@
 # DL-Traff-Graph: Graph-Based Deep Learning Models for Urban Traffic Prediction
 
+The url of Grid-based is as follows: 
+(https://github.com/deepkashiwa20/DL-Traff-Grid)
+
 ## Introduction
 English | [简体中文](README_zh-CN.md)
 
