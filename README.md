@@ -1,7 +1,7 @@
 Our work has been accepted has 
 
 # [CIKM 2021 Resource Paper] DL-Traff: Survey and Benchmark of Deep Learning Models for Urban Traffic Prediction
-# DL-Traff-Graph: Graph-Based Deep Learning Models for Urban Traffic Prediction
+## DL-Traff-Graph: Graph-Based Deep Learning Models for Urban Traffic Prediction
 
 * Our work has been accepted by CIKM 2021 Resource Track.
 * The preprint version has been uploaded to arXiv. https://arxiv.org/pdf/2108.09091.pdf
