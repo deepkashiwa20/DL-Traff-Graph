@@ -1,11 +1,13 @@
 # [CIKM 2021 Resource Paper] DL-Traff: Survey and Benchmark of Deep Learning Models for Urban Traffic Prediction
 ## DL-Traff-Graph: Graph-Based Deep Learning Models for Urban Traffic Prediction
 
-* Our work has been accepted by CIKM 2021 Resource Track.
+* Our work has been accepted by CIKM 2021 Resource Track. https://doi.org/10.1145/3459637.3482000
 * The preprint version has been uploaded to arXiv. https://arxiv.org/pdf/2108.09091.pdf
 * The url of Grid-Based work is : 
 (https://github.com/deepkashiwa20/DL-Traff-Grid)
 
+## Cite
+@inproceedings{10.1145/3459637.3482000, author = {Jiang, Renhe and Yin, Du and Wang, Zhaonan and Wang, Yizhuo and Deng, Jiewen and Liu, Hangchen and Cai, Zekun and Deng, Jinliang and Song, Xuan and Shibasaki, Ryosuke}, title = {DL-Traff: Survey and Benchmark of Deep Learning Models for Urban Traffic Prediction}, year = {2021}, isbn = {9781450384469}, publisher = {Association for Computing Machinery}, address = {New York, NY, USA}, url = { https://doi.org/10.1145/3459637.3482000 }, doi = {10.1145/3459637.3482000}, booktitle = {Proceedings of the 30th ACM International Conference on Information & Knowledge Management}, pages = {4515–4525}, numpages = {11}, location = {Virtual Event, Queensland, Australia}, series = {CIKM '21}}
 
 ## Introduction
 English | [简体中文](README_zh-CN.md)
