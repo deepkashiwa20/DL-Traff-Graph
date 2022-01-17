@@ -15,7 +15,7 @@ https://scholar.googleusercontent.com/scholar.bib?q=info:91G_89lj3q8J:scholar.go
   Ryosuke},
   booktitle={Proceedings of the 30th ACM International Conference on Information \& Knowledge Management},
   pages={4515--4525},
-  year={2021}<br/>
+  year={2021}
 }
 ```
 ## Introduction
