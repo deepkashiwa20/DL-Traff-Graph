@@ -2,7 +2,7 @@
 ## DL-Traff-Graph: Graph-Based Deep Learning Models for Urban Traffic Prediction
 
 * Our work has been accepted by CIKM 2021 Resource Track. https://doi.org/10.1145/3459637.3482000
-* The preprint version has been uploaded to arXiv. https://arxiv.org/pdf/2108.09091.pdf
+* The preprint version has been uploaded to arXiv. https://arxiv.org/abs/2108.09091
 * The url of Grid-Based work is : 
 (https://github.com/deepkashiwa20/DL-Traff-Grid)
 
