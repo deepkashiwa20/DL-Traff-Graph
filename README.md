@@ -7,7 +7,7 @@
 (https://github.com/deepkashiwa20/DL-Traff-Grid)
 
 ## Cite
-https://scholar.googleusercontent.com/scholar.bib?q=info:91G_89lj3q8J:scholar.google.com/&output=citation&scisdr=CgXmH6SEEOLitGgLgvo:AAGBfm0AAAAAYeUNmvrcVYuL0fSakeSCUoaN29U03zkM&scisig=AAGBfm0AAAAAYeUNmudEF-tM7gJVTB8LEQldSLUTgtXE&scisf=4&ct=citation&cd=-1&hl=zh-CN
+
 ```
 @inproceedings{jiang2021dl,
   title={DL-Traff: Survey and Benchmark of Deep Learning Models for Urban Traffic Prediction},
