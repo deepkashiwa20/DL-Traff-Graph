@@ -139,15 +139,11 @@ def main():
         return
 
     data = dataloader()
-
     # You can add normalization or other preprocess here.
 
     printParam()
-
     trainX, trainY, valX, valY, testX, testY = getDataset(data)
-
     np.savez_compressed(saveStr, trainX=trainX, trainY=trainY, valX=valX, valY=valY, testX=testX, testY=testY)
-
     print('Prepared data saved as ' + saveStr + '.')
 
 
