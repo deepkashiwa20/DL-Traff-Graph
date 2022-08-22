@@ -3,4 +3,4 @@ DISTANCES = '../PEMSBAY/distances_bay_2017.csv'
 WEEK = 2 
 DAY = 1 
 HOUR = 2
-BATCHSIZE = 32 # from 64 to 32, due to the size limitation of GPU memory.
+TIMESTEP_PER_HOUR = 12
