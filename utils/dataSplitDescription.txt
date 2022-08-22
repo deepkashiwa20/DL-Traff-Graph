@@ -1,0 +1,17 @@
+There are mainly two ways for data spliting when build samples.
+
+In one method, we split the dataset into trainset,valset and testset by some ratio(e.g., trainset : valset : testset=7:1:2), 
+then get features and build samples respectively.
+
+For example, assume that the dataset's shape is (10000, 1), sample's shape is (12, 1) for each x and (6, 1) for rach Y.
+Then we got data with (7000, 1) for training, (1000, 1) for validation, (2001, 1) for testing.
+So we got 7000-12-6+1 = 6983 samples for training, 983 samples for validation, 1983 samples for testing.
+
+In the other method, we get features and build samples from the complete dataset, then we split them into different sets by ratio.
+Let's use the same dataset above with shape (10000, 1), (12, 1) for each x and (6, 1) for each y.
+Then we got 10000-12-6+1 = 9983 samples.
+9983*0.7 = 6988.1 9983*0.8 = 7986.4 
+So we got 6988 samples for training, 7984-6988 = 998 samples for validation, 9983-7986 = 1997 samples for testing.
+
+In DLTraff, we use the first method in pred_[ModelName] files.
+We use the second method in dataprepare files

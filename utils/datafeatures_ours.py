@@ -17,8 +17,8 @@ TIMESTEP_OUT = 12
 # LOAD_PATH : path to load the dataset
 # SAVE_DIR : directory to save the prepared data
 MODEL_NAME = '***'
-DATASET_NAME = 'PEMSBAY'
-LOAD_PATH = '../' + DATASET_NAME + '/pems-bay.h5'
+DATASET_NAME = 'METRLA'
+LOAD_PATH = '../' + DATASET_NAME + '/metr-la.h5'
 SAVE_DIR = '../DataTemp/' + DATASET_NAME
 ADD_STRING = '_W' + str(WEEK) + '_D' + str(DAY) + '_C' + str(TIMESTEP_IN)
 ADD_STRING += '_DLTraff'

@@ -5,7 +5,7 @@ import pandas as pd
 from _datetime import datetime
 
 # Parameters
-WEEK = 0
+WEEK = 2
 DAY = 1
 HOUR = 2
 TRAIN_RATIO = 0.7
@@ -24,8 +24,8 @@ assert TIMESTEP_IN == TIMESTEP_OUT, \
 # LOAD_PATH : path to load the dataset
 # SAVE_DIR : directory to save the prepared data
 MODEL_NAME = 'ASTGCN'
-DATASET_NAME = 'PEMSBAY'
-LOAD_PATH = '../' + DATASET_NAME + '/pems-bay.h5'
+DATASET_NAME = 'METRLA'
+LOAD_PATH = '../' + DATASET_NAME + '/metr-la.h5'
 SAVE_DIR = '../DataTemp/' + DATASET_NAME
 ADD_STRING = '_W' + str(WEEK) + '_D' + str(DAY) + '_H' + str(HOUR)
 ADD_STRING += '_Official'
